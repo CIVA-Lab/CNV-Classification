@@ -9,7 +9,7 @@ To get cornea detection
 This script will prepare your input for Mask R-CNN detection.
 
 3. Setup [Mask R-CNN](https://github.com/matterport/Mask_RCNN):  
-Put the ```mosaic_cornea_weights``` in log, and put your ```Output\stage_test``` folder in the same folder with the nucleus example and run ```nucleus.py```
+Put the ```mosaic_cornea_weights``` in log, and put your ```Output\stage_test``` folder in the same folder with the nucleus example and run ```nucleus_MaskRCNN_CNV.py```
 
 4. Take the detection masks and place them in 
 

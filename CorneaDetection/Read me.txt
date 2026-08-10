@@ -38,7 +38,7 @@ ex: input\Extreme\ET_101_Day 21_04.16.2015\image1.png
 This script will prepare your input for Mask R-CNN detection.
 
 3. Setup Mask R-CNN using this website: https://github.com/matterport/Mask_RCNN
-Put the mosaic_cornea_weights in log, and put your Output\stage_test folder in the same folder with the nucleus example and run nucleus.py 
+Put the mosaic_cornea_weights in log, and put your Output\stage_test folder in the same folder with the nucleus example and run nucleus_MaskRCNN_CNV.py 
 
 4. Take the detection masks and place them in 
 

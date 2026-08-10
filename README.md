@@ -21,13 +21,12 @@ The RF and XGBoost regression models are trained using corneal images with known
 
 There are four main folders in our repository:
 
-**CorneaDetection:** contains algorithm scripts used to test Mask R-CNN.
+**CorneaDetection:** contains algorithm scripts used to test Mask R-CNN and circle fitting.
 
-**CircleFitting:** contains algorithm scripts used for geometry correction on Mask R-CNN results.
+**CorneaDetectionAndCNVClassification:** contains algorithm scripts used to test Mask R-CNN (MultiClass). 
 
 **CNVClassification:** contains algorithm scripts used to test RF and XGBoost. 
 
-**CorneaDetectionAndCNVClassification:** contains algorithm scripts used to test Mask R-CNN (MultiClass). 
 
 </br>
 
@@ -66,3 +65,9 @@ To treat the results generated from mask R-CNN by fitting a circle on mask R-CNN
 5. ```fit_circles_to_maskrcnn_masks_results.m```
  
 This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexchange/22643-circle-fit-pratt-method) to fit the cicle
+
+
+### Cornea Detection and Classification using Mask R-CNN
+
+To detect cornea and classify at the same time run the following script ```nucleus_MaskRCNN_CNV_MultiClass.py```. This will detect cornea and also provide the score for the grading.
+
