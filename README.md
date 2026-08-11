@@ -71,3 +71,29 @@ This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexch
 
 To detect cornea and classify at the same time run the following script ```nucleus_MaskRCNN_CNV_MultiClass.py```. This will detect cornea and also provide the score for the grading.
 
+
+</br>
+
+## Project Collaborators and Contact
+
+**Author:** Gani Rahmon, Suneel Gupta, Rajiv Mohan and Kannappan Palaniappan
+
+Copyright &copy; 2026-2027. Gani Rahmon, Prof. K. Palaniappan and Curators of the University of Missouri, a public corporation. All Rights Reserved.
+
+**Created by:** Gani Rahmon  
+Department of Electrical Engineering and Computer Science,  
+University of Missouri-Columbia  
+
+For more information, contact:
+
+* **Gani Rahmon**  
+226 Naka Hall (EBW)  
+University of Missouri-Columbia  
+Columbia, MO 65211  
+gani.rahmon@missouri.edu  
+
+* **Dr. K. Palaniappan**  
+205 Naka Hall (EBW)  
+University of Missouri-Columbia  
+Columbia, MO 65211  
+palaniappank@missouri.edu
