@@ -71,6 +71,26 @@ This script uses [Pratt method](https://www.mathworks.com/matlabcentral/fileexch
 
 To detect cornea and classify at the same time run the following script ```nucleus_MaskRCNN_CNV_MultiClass.py```. This will detect cornea and also provide the score for the grading.
 
+</br>
+
+## Part 2 : CNV Grading
+
+To get grading using RF or XGBoost
+
+1. Put your output from Cornea Detection which is located in ```Output/Classify_me_circles``` in a folder called ```CNV-New-Data-Paper``` inside ```CNVClassification``` folder. AS an example: 
+
+```\DeepCNVDELTA\CNVClassification\CNV-New-Data-Paper\Ex\ET_110_Day21_04.16.2015_Image1.png```
+
+2. Run the following jupiter notebook step by step:
+
+```CNV_classification.ipynb``` 
+
+3. The script provides both training and testing codes, if you want to test with our weights, you can directly jump to testing portion of the script. We already provided our training weights for RF and XGBoost in this folder ```classification_weights```.
+
+4. You will get graiding score for each images among with the statistics. 
+
+5. The test images used in the paper are given in the following folder: ```CNV-New-Data-Paper\```
+
 
 </br>
 
