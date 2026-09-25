@@ -1,4 +1,4 @@
-# DeepCNVDELTA
+# A hybrid artificial intelligence model for corneal neovascularization severity classification from slit-lamp images
 This work proposes a robust, fully automated framework for grading corneal neovascularization (CNV) based on the extent of vessel ingrowth. The overall workflow of the proposed approach is illustrated in the figure. The primary objective is to predict the severity grade of CNV by extracting relevant image-based features from the corneal region and using these features within a supervised regression framework.
 
 The proposed method consists of two main stages. The first stage focuses on accurately segmenting and extracting the corneal region from the surrounding structures in the mouse eye image, while the second stage estimates the corresponding CNV severity grade using deep feature extraction and regression-based learning.
@@ -17,7 +17,7 @@ The RF and XGBoost regression models are trained using corneal images with known
 
 </br>
 
-# How to use DeepCNVDELTA
+# How to use CNV Classification
 
 There are four main folders in our repository:
 
@@ -79,7 +79,7 @@ To get grading using RF or XGBoost
 
 1. Put your output from Cornea Detection which is located in ```Output/Classify_me_circles``` in a folder called ```CNV-New-Data-Paper``` inside ```CNVClassification``` folder. AS an example: 
 
-```\DeepCNVDELTA\CNVClassification\CNV-New-Data-Paper\Ex\ET_110_Day21_04.16.2015_Image1.png```
+```\CNVClassification\CNV-New-Data-Paper\Ex\ET_110_Day21_04.16.2015_Image1.png```
 
 2. Run the following jupiter notebook step by step:
 
